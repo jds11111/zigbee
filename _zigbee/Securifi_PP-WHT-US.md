@@ -6,7 +6,7 @@ category: plug
 supports: on/off, power measurement, ota
 image: /assets/images/devices/Securifi_PP-WHT-US.jpg
 zigbeemodel: ['PP-WHT-US']
-compatible: [z2m]
+compatible: [z2m, zha]
 mlink: https://www.securifi.com/rg/securifi-peanut-plug
 link: https://www.amazon.com/Securifi-compatible-Remotely-Monitor-Appliances/dp/B00TC9NC82
 link2: 
@@ -37,6 +37,6 @@ Save the file and restart zigbee2mqtt.
 ### Power measurements
 This device only support power measurements with an up-to-date firmware on the plug which can only be done
 via the original hub. In case of an older firmware you will only see 0 values in the measurements.
-Discussion: https://github.com/Koenkk/zigbee2mqtt/issues/809 
+Discussion: https://github.com/Koenkk/zigbee2mqtt/issues/809. Instructions for updating firmware on ZHA are here: https://www.reddit.com/r/homeassistant/comments/jvc7k9/update_peanut_outlet_firmware_ota_through/
 
 
